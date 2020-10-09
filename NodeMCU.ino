@@ -28,7 +28,13 @@ Adafruit_MQTT_Client mqtt(&client, AIO_SERVER, AIO_SERVERPORT, AIO_USERNAME, AIO
 /****************************** Feeds ***************************************/
 
 
+
+//sample program
 // Setup a feed called 'onoff' for subscribing to changes.
+
+
+
+
 Adafruit_MQTT_Subscribe Light1 = Adafruit_MQTT_Subscribe(&mqtt, AIO_USERNAME"/feeds/Enter your Feed Name"); // FeedName
 
 void MQTT_connect();
